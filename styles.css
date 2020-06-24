@@ -1,0 +1,45 @@
+body
+{
+    background-color: #004c66;
+}
+h1
+{
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    color: white;
+}
+.container
+{
+    width: 40px;
+    margin: 70px auto;
+}
+.dot
+{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+     border-radius: 50%;
+}
+.dot1
+{
+    background-color: red;
+    animation: jump-up 0.6s 0.1s linear infinite;
+}
+.dot2
+{
+    background-color: blue;
+    animation: jump-up 0.6s 0.2s linear infinite;
+}
+.dot3
+{
+  background-color: yellow;
+  animation: jump-up 0.6s 0.3s linear infinite;
+}
+    @keyframes jump-up
+{
+    50%
+    {
+        transform: translate(0,15px);
+    }
+}
